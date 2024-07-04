@@ -27,7 +27,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Third Party Library 
 In this App we are using :-
 
-#### `Yop`
+#### `Yup`
 Yup is a JavaScript schema builder for value parsing and validation. It is commonly used for form validation in web applications, especially when working with React. Yup allows you to define a schema for your data model and provides methods to validate the data against this schema. It integrates well with form libraries like Formik to handle form validation easily.
 We are using this to validate required email format in our email Input 
 
