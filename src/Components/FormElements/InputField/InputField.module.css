@@ -1,0 +1,87 @@
+.formGroup {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
+.formGroup label {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+  
+.formGroup input,
+.formGroup select {
+    box-sizing: border-box;
+    padding: 8px 30px;
+}
+  
+.formGroup input[type="checkbox"] {
+    width: auto;
+}
+
+
+
+.formGroup select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 20px;
+    /* pointer-events: none;  */
+  }
+  
+
+.formGroup .arrowContainer {
+    position: relative;
+    right: 25px;
+    z-index: 1;
+    transform: translateY(25%);
+  }
+  
+.formGroup .arrowIcon {
+    border-color: #000;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    padding: 5px; 
+  }
+
+.inputContainer {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    & select{
+        width: 200px;
+    }
+    .icon {
+        position: absolute;
+        top: 50%; 
+        left: 7px; 
+        transform: translateY(-50%);
+        width: 17px;
+    }
+    .eyeIcon {
+        position: absolute;
+        top: 55%;
+        right: 5px;
+        transform: translateY(-50%);
+
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 20px;
+        }
+}
+  
+.error{
+    font-size: 11px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    color: red;
+}

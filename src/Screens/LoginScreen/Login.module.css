@@ -1,0 +1,33 @@
+.logo{
+  width: 60%;
+}
+.formContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm{
+  background-color: #fff;
+  padding: 0px 20px 10px 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin-bottom: 5px;
+}
+  
+.forgotPass {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  & .aDiv{
+    width: 350px;
+    display: flex;
+    & a{
+      display: inline-block;
+      color: #000;
+    }
+  }
+}
+
+  
